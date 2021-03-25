@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ButtonModule, CalendarModule, CheckboxModule, ConfirmDialogModule, DialogModule, DropdownModule, FieldsetModule, InputMaskModule, InputTextareaModule, InputTextModule, MessagesModule, TableModule, TabViewModule, ToggleButtonModule } from 'primeng';
+import { ButtonModule, CalendarModule, CheckboxModule,
+   ConfirmDialogModule, DialogModule, DropdownModule, FieldsetModule, 
+   InputMaskModule, InputTextareaModule, InputTextModule, MessagesModule, TableModule, 
+   TabViewModule, ToggleButtonModule } from 'primeng';
 //	Alguns	imports
 	
 @NgModule({
@@ -14,12 +17,12 @@ import { ButtonModule, CalendarModule, CheckboxModule, ConfirmDialogModule, Dial
         DialogModule,
         TableModule,
         InputTextModule,
-        InputTextareaModule,
+    
         DropdownModule,
         ConfirmDialogModule, 
         CalendarModule, 
         TabViewModule,	
-        ToggleButtonModule
+      
 		],
 		exports:[
         ButtonModule,

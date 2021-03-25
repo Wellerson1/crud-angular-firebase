@@ -10,7 +10,14 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'admin/painel', loadChildren: () => 
     import('./components/admin/painel/painel.module').then(m => 
-      m.PainelModule), canActivate: [AuthguardService]},
+    m.PainelModule), 
+    canActivate: [AuthguardService]
+  },
+  { path: 'admin/departamento', loadChildren: () => 
+    import('./components/admin/departamento/departamento.module').then(m => 
+    m.DepartamentoModule), 
+    canActivate: [AuthguardService]
+  },
 
 ];
 
